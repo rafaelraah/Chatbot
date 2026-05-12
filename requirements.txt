@@ -2,3 +2,4 @@ python-dotenv
 jupyterlab
 groq
 colorama
+streamlit
