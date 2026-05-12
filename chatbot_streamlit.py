@@ -12,6 +12,12 @@ client = Groq(
     api_key=os.getenv("GROQ_API_KEY")
 )
 
+st.set_page_config(
+    page_title="Robusto Chatbot",
+    page_icon="🤖",
+    layout="centered"
+)
+
 # Memória
 if "messages" not in st.session_state:
 
